@@ -1,18 +1,29 @@
 # Prompt Testing & Evaluation
 
-A practical demonstration of testing prompts and comparing how different instructions affect AI output.
+A Python-based project demonstrating how different prompt structures can be tested, documented, and compared.
 
 ## Tests include
+
 - Zero-shot prompting
 - Role and audience constraints
 - Output-format constraints
-- Consistency and clarity checks
+- Instruction clarity
+- Consistency analysis
 
-## Evaluation approach
-For each test, the prompt is documented, the intended task is identified, and the expected improvement is described.
+## How it works
+
+Test cases are stored in `prompt_tests.json`. The Python script `prompt_tests.py` loads and displays the test cases and observations.
+
+## Run
+
+```bash
+python prompt_tests.py
+```
 
 ## Goal
-The project demonstrates practical prompt analysis rather than claiming that one prompt is universally better.
 
-## Skills
-Prompt Engineering · AI Evaluation · Instruction Following · Quality Assurance · Analytical Thinking
+The project demonstrates practical prompt analysis and instruction-following evaluation. It does not claim that one prompting technique is universally better.
+
+## Technologies
+
+Python · JSON · Prompt Engineering · AI Evaluation · Quality Assurance
