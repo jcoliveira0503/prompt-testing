@@ -1,0 +1,20 @@
+[
+  {
+    "task": "Explain an API to a beginner",
+    "prompt_type": "Zero-shot",
+    "prompt": "Explain what an API is.",
+    "result": "Clear basic explanation, but audience level may vary."
+  },
+  {
+    "task": "Explain an API to a beginner",
+    "prompt_type": "Role + audience constraint",
+    "prompt": "You are a beginner-friendly technology instructor. Explain what an API is to someone with no programming experience. Use one simple analogy and no more than 120 words.",
+    "result": "More consistent with the requested audience and format."
+  },
+  {
+    "task": "Return structured information",
+    "prompt_type": "Structured output",
+    "prompt": "Extract the product name, price, and category from the following text. Return valid JSON with keys product, price, category.",
+    "result": "Explicit output constraints make automated checking easier."
+  }
+]
